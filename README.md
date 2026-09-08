@@ -1,7 +1,7 @@
 # Mini ERP
 
 <p align="center">
-  <img src="mini-erp-preview.png" alt="Mini ERP Preview" width="900">
+  <img src="assets/mini-erp-preview.png" alt="Mini ERP Preview" width="900">
 </p>
 
 <p align="center">
