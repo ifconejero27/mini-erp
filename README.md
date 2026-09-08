@@ -1,16 +1,127 @@
-# React + Vite
+# Mini ERP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="mini-erp-preview.png" alt="Mini ERP Preview" width="900">
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  A lightweight Enterprise Resource Planning system built with React and Vite for managing products, purchasing, sales, inventory, reports, and users.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/LocalStorage-Storage-blue?style=for-the-badge">
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the Project
 
-## Expanding the ESLint configuration
+The Mini ERP is a web-based business management application designed to bring common business operations into a single system.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The system demonstrates frontend development, component-based React architecture, CRUD operations, multi-product transactions, inventory management, role-based access control, data persistence, and business reporting.
+
+---
+
+## Features
+
+### Product Management
+- Add new products
+- Edit existing products
+- Delete products
+- Search products
+- Manage product pricing
+- Manage stock and reorder levels
+- Prevent duplicate SKUs
+
+### Purchasing Management
+- Create purchase orders
+- Add multiple products to a purchase
+- Set product quantities and costs
+- Track pending purchases
+- Receive purchase orders
+- Automatically increase inventory after receiving
+- Record inventory IN movements
+
+### Sales Management
+- Create sales orders
+- Add multiple products to a sale
+- Select customers
+- Track pending sales
+- Confirm sales
+- Automatically deduct inventory after confirmation
+- Prevent sales confirmation when available stock is insufficient
+
+### Inventory Management
+- View current product stock
+- Adjust inventory manually
+- Perform IN and OUT stock adjustments
+- Prevent OUT adjustments from exceeding available stock
+- Track inventory movement history
+
+### Reports
+- View sales revenue
+- View purchase spending
+- View inventory valuation
+- Track units sold
+- Track units purchased
+- View best-selling products
+- View purchased products
+- View sales and purchasing summaries
+
+### User Management
+- Add users
+- Edit users
+- Activate and deactivate users
+- Delete users
+- Assign user roles
+- Role-based system access
+
+---
+
+## User Roles
+
+| Role | Access |
+|------|--------|
+| Admin | Full system access including user management |
+| Staff | Products, purchasing, sales, inventory, and reports |
+| User | Products and personal sales orders |
+
+---
+
+## Technologies Used
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+### Data Storage
+- Browser LocalStorage
+
+### Development
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## System Highlights
+
+### Integrated Business Workflow
+
+The system connects purchasing, sales, and inventory operations together.
+
+```text
+Products
+   ↓
+Purchasing → Receive Purchase → Inventory ↑
+   ↓
+Sales → Confirm Sale → Inventory ↓
+   ↓
+Reports
