@@ -128,6 +128,4 @@ Reports
 ```
 ## Live Demo
 
-### Mini ERP
-
 [Mini ERP Live Demo](https://mini-erp-snowy.vercel.app/)
