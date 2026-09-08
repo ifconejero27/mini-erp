@@ -126,7 +126,8 @@ Sales → Confirm Sale → Inventory ↓
    ↓
 Reports
 
----
+## Live Demo
 
-## Live Demo 
-[View Live Demo](https://mini-erp-snowy.vercel.app/)
+### Mini ERP
+
+[Mini ERP Live Demo](https://mini-erp-snowy.vercel.app/)
