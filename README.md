@@ -125,3 +125,6 @@ Purchasing → Receive Purchase → Inventory ↑
 Sales → Confirm Sale → Inventory ↓
    ↓
 Reports
+
+## Live Demo 
+[View Live Demo](https://mini-erp-snowy.vercel.app/)
