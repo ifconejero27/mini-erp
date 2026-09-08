@@ -125,7 +125,7 @@ Purchasing → Receive Purchase → Inventory ↑
 Sales → Confirm Sale → Inventory ↓
    ↓
 Reports
-
+```
 ## Live Demo
 
 ### Mini ERP
